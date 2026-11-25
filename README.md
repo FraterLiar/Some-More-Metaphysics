@@ -73,3 +73,4 @@ GitHub Pages hosts files publicly. Review the repository contents before publish
 - `index.html`, `bio.html` — desk/book experience and bio page.
 - `css/`, `js/`, `assets/`, `fonts/` — styling, interactions, images, and typefaces.
 # Some-More-Metaphysics
+# Some-More-Metaphysics
