@@ -1,0 +1,38 @@
+{
+  "site": {
+    "title": "Some More Metaphysics"
+  },
+  "contents": {
+    "heading": "Some More Metaphysics",
+    "entries": [],
+    "back": "Return to the Contents"
+  },
+  "leftLeaf": {
+    "marginNote": [
+      "Errata begin on p. 79, not 80.",
+      "This is not among the errata."
+    ],
+    "showThrough": [
+      "ESSAYS",
+      "upon",
+      "Several Subjects,",
+      "chiefly Unadvisable.",
+      "",
+      "Printed for the Author,",
+      "who regrets the expense."
+    ]
+  },
+  "idleNotes": [
+    "Twenty-five seconds on a table of contents. I admire the caution.",
+    "It does not get longer if you watch it.",
+    "Still here. The essays are further in, as is customary."
+  ],
+  "pentagram": {
+    "label": "Enter the ritual room"
+  },
+  "ritual": {
+    "title": "The Ritual Room",
+    "practices": [],
+    "back": "back to the desk"
+  }
+}

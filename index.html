@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Some More Metaphysics</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./css/style.css?v=coin-centered-hitbox">
+</head>
+<body>
+  <!-- Shared SVG filters (scoped to ink text only, never full-screen) -->
+  <svg class="svg-defs" width="0" height="0" aria-hidden="true">
+    <defs>
+      <filter id="ink-bleed" x="-3%" y="-6%" width="106%" height="112%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="n"/>
+        <feDisplacementMap in="SourceGraphic" in2="n" scale="0.65" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+    </defs>
+  </svg>
+
+  <main id="viewport" class="viewport">
+    <div id="stage" class="stage" data-layout="landscape">
+
+      <!-- Tilted desk plane (desk, cast shadows, saucer, book, tea ring, light pass) -->
+      <div id="plane" class="plane">
+
+        <div class="layer layer-desk" data-layer="desk">
+          <canvas id="desk-canvas"></canvas>
+        </div>
+
+        <div class="layer layer-shadows" data-layer="light-shadows">
+          <canvas id="shadow-canvas"></canvas>
+        </div>
+
+        <div class="layer layer-saucer" data-layer="candle-saucer">
+          <canvas id="saucer-canvas"></canvas>
+        </div>
+
+        <div id="book" class="layer layer-book" data-layer="book">
+          <canvas id="book-base"></canvas>
+
+          <!-- Left leaf (nearly bare: show-through + marginal note + 25s idle note) -->
+          <div id="leaf-left" class="leaf leaf-left">
+            <canvas id="paper-left"></canvas>
+            <div class="leaf-left-notes">
+              <p id="margin-note" class="hand-second margin-note"></p>
+              <p id="idle-note" class="hand-second idle-note" aria-live="polite"></p>
+            </div>
+          </div>
+
+          <!-- Right leaf underneath: essay stub (revealed when TOC leaf turns) -->
+          <div id="leaf-essay" class="leaf leaf-right leaf-essay" aria-hidden="true">
+            <canvas id="paper-essay"></canvas>
+            <article class="essay-body">
+              <h2 id="essay-title" class="essay-title"></h2>
+              <p id="essay-text" class="essay-text"></p>
+              <button type="button" id="essay-back" class="essay-back"></button>
+            </article>
+          </div>
+
+          <!-- Right leaf on top: Table of Contents (turns in 3D with curl shading) -->
+          <div id="leaf-toc" class="leaf leaf-right leaf-toc">
+            <div class="leaf-face leaf-front">
+              <canvas id="paper-right"></canvas>
+              <div class="toc-wrap">
+                <h1 id="toc-heading" class="toc-heading"></h1>
+                <nav id="toc-nav" class="toc-nav" aria-label="Table of Contents"></nav>
+              </div>
+              <div class="curl-shade curl-front" aria-hidden="true"></div>
+            </div>
+            <div class="leaf-face leaf-back" aria-hidden="true">
+              <canvas id="paper-back"></canvas>
+              <div class="curl-shade curl-back"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="layer layer-details" data-layer="details">
+          <canvas id="ring-canvas"></canvas>
+        </div>
+
+        <!-- Real lighting pass over the desk plane: multiply darkness + warm lit layer -->
+        <div class="layer layer-light" data-layer="light">
+          <canvas id="light-mult" class="light-mult"></canvas>
+          <canvas id="light-warm" class="light-warm"></canvas>
+        </div>
+
+        <a id="bio-coin" class="bio-coin" href="./bio.html" aria-label="Read the author's bio">
+          <img src="./assets/bio-coin.jpg" alt="A weathered silver coin">
+        </a>
+
+      </div>
+
+      <!-- A warm translucent wash unifies the desk lighting beneath the objects. -->
+      <div class="layer layer-ambient" aria-hidden="true"></div>
+
+      <!-- Upright candle layer (projected into stage space, above the tilted plane) -->
+      <div class="layer layer-candle" data-layer="candle">
+        <canvas id="candle-body"></canvas>
+        <canvas id="candle-carve" class="candle-carve"></canvas>
+        <canvas id="candle-flame"></canvas>
+        <div id="ascii-flame" class="ascii-flame" aria-hidden="true"></div>
+        <button type="button" id="pentagram-btn" class="pentagram-btn" aria-label="Enter the ritual room">
+          <svg class="focus-bracket focus-bracket-star" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M18 8 C8 12, 7 32, 9 50 C10 70, 8 88, 19 92"/>
+            <path d="M82 9 C92 14, 93 34, 91 52 C90 70, 92 87, 81 92"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Global intro/transition veil (darkness before wick catches, and beat before ritual room) -->
+      <div id="veil" class="veil is-dark" aria-hidden="true"></div>
+
+    </div>
+
+    <!-- Ritual room stub -->
+    <section id="ritual" class="ritual" aria-hidden="true"></section>
+  </main>
+
+  <script type="module" src="./js/main.js?v=coin-lower-left-placement"></script>
+</body>
+</html>
