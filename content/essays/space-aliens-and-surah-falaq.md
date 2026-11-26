@@ -57,6 +57,7 @@ I suggest that the model might not be as important as the fit itself between the
 In Buddhism, the development of concentration in meditation, *samatha*, is a gateway to strange levels of experience. The full cultivation of concentration leads to pleasant trance states known as the jhanas. There appear to be an entire continuum of states of consciousness that could be classified as a jhana, from full-body immersion trances to a mildly pleasant buzz.
 
 The Buddhist texts recognize five factors of jhana:
+
 • Applied thought (vitakka): The quality of mind deciding to take an object of concentration.
 
 • Sustained thought (vicāra): The quality which holds the object despite distractions.
@@ -78,7 +79,7 @@ Within a meditation context, where images, myths, and archetypes are cleared fro
 Here's a bit from the Buddhist Daṇḍa Sutta (SN 15:9):
 "From **an inconstruable beginning** comes transmigration. A beginning point is not evident ... Long have you thus experienced stress ... enough to become **disenchanted with all fabricated things**, enough to become dispassionate, enough to be released."
 
-I never again had an experience as powerful related to the Islamic way of seeing. No Quran readings, praying in a lucid dream, or of an inner Sun rising which blinds even my waking eye. However, the UFOs did come again once or twice, all the way until last year. Each time jolting me into lucidity and leaving a visual remnant when I wake. In these dreams I'm usually trying to record a video before the manifestation disappears, desperately trying to preserve something of it to hold onto. Inevitably, that's left when I wake up is a visual smear.
+I never again had an experience as powerful related to the Islamic way of seeing. No Quran readings, praying in a lucid dream, or of an inner Sun rising which blinds even my waking eye. However, the UFOs did come again once or twice, all the way until last year. Each time jolting me into lucidity and leaving a visual remnant when I wake. In these dreams I'm usually trying to record a video before the manifestation disappears, desperately trying to preserve something of it to hold onto. Inevitably, all that's left when I wake up is a visual smear.
 
 I would suggest that the urge to record the UFO is a fear of losing the divine, of trying to control and hold onto God, and that the appearance of a UFO (or any symbol of the otherworldly) with its concordant physical weirdness is proper fit of the model. The glimpse of the otherwordly and the desperate desire to hold onto it is the recognition that even the divine is conditioned and impermanent. It leads us past craving for the next thing to consume, to recognize that even experiences of the divine are subject to fading away in our human minds. 
 
