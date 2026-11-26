@@ -1,0 +1,81 @@
+---
+slug: space-aliens-and-surah-falaq
+title: Space Aliens and Surah Falaq
+page: "3"
+order: 1
+published: true
+---
+
+This entry is an exploration of lucid dreaming as it pertains to UFO sightings and some experiences of the Islamic God. Naturally, it is heretical.
+
+I hope to explore what it means to be immersed in a worldview and signposts along the way that immersion is working, and what the hell all that might even be good for. This will hopefully be an ongoing topic of discussion in these writings. This time I will bring in some concepts from Buddhist meditation to help frame things.
+
+One night, wandering in my neighborhood with a friend, we both looked up to see a star moving before our eyes. I couldn't believe it. Hurriedly I pulled up my star tracking app to discover it was the International Space Station. There were three people aboard at that time, maybe the loneliest human beings in the universe. We looked and grinned up at them. They will never know about this. Over the next few weeks I couldn't stop staring up at the stars at night to catch something interesting up there among twinkling pearls of quintessence. Every night until eventually, inevitably, the aliens began showing up.
+
+I was watching a lot of X-Files at the time. The show follows two FBI agents who represent the skeptic and the believer as they investigate the paranormal and unexplainable. Fox Mulder's mind bug caught me, and I spent inordinate amounts of time reading and thinking about space aliens and government conspiracies to hide their existence. It's important to note the caveat that I do not believe in physical visitations by Greys, but that didn't seem to matter at all. I had performed inception upon myself. I kept looking to the sky for sight of something extraordinary.
+
+Over the course of two months, I experienced a series of lucid dreams that were each triggered by the appearance of a flying gray saucer. These dreams had qualities distinct from lucid dreams I'd had before. Here are some excerpts:
+
+> *"it appeared from below the horizon. A large, brilliant, white diamond"*
+> 
+> *"Me and a couple other people start recording it. Since it hovers so low I believe it's a UFO. I become lucid, but it starts shooting at us and I have to flee. As I’m waking up I see a nimitta-like yellow disk which flashes with faces.*
+
+I want to bring attention here to the appearance of bright lights during the transition from the dream to the waking state. These are physical experiences so vivid they leave visual smears on the retinas. During the peak of these experiences I was having a UFO-triggered lucid dream nearly every night for two weeks, until the following dream entry:
+
+>"*A saucer-shaped UFO I saw from very far away. Very bright, and immediately upon seeing it the face of the dream changed. It became more vivid. It came to hover over me and used its tractor beam to abduct me. I began to experience vibrations throughout my body, and in a way similar to astral projection parts of my body were felt moving in a way that did not coincide with the reality that I was laying in bed. Partial separation of the soul. I tried to get full separation but I fell back into a jumble of dreams.*"
+
+It seems they tried to get me to leave my body but couldn't. Their tractor beam was not powered high enough. Eventually I stopped thinking as much about the X-Files and the aliens gave up on me for the most part. Vipassana meditation continued, so I was no stranger to the physical phenomena during practice.
+
+I moved onto a phase in life typified by an utter disgust with American consumer culture, and my spiritual practice developed accordingly. I began to notice how social media created feedback loops of anger, made me feel like shit, ravaged my attention span. Jealousy consumed me. But what if I didn't want to accept that this was the best life can offer? What if we don't want to watch more television, play more games, listen to more podcasts to become "better versions of ourselves?" What if we are sick and tired of licking boots hoping to one day be the oppressor?
+
+I looked to ways of denying consumerism's hold on me, and began to wonder at the West's revulsion of Islam. During this time I took on Islamic practice as political act, and the religion itself as a negation of Western cultural imperialism. I prayed five times a day, reconnecting with the practice my family raised me with. As this immersion increased, I began to experience lucid dreams related to Islam, reciting short chapters of the Quran as I experienced the unreal state.
+
+>*When I become lucid I decide to pray at the mosque. In my recitation I get up to Surah Kuraysh. The concentration was slippery and the location around me kept changing. I realized concentration is hard because it requires me to maintain an object in the imagination while I’m dreaming, itself an act of imagination. Decided to start paying attention to the qualities of the dream instead and the dream got even more vivid.*
+
+This was an evolution of the way I related to lucidity. Trying to maintain the religious experience of the dream state was subject to decay. I had to experience the dream as it was, bring my full force of awareness to it, to reveal its underlying structure.
+
+>*I see that the dawn is breaking and I lay on a meadow. It’s really beautiful and I think of Surah Falaq. The words resound in my head, and the Sun leaves a bright smear on my vision even when I open my eyes.*
+
+Waking from this dream felt like being cleansed. It left an indelible mark on my mind as a blessing. Surah Falaq is a prayer of protection, al-Falaq means 'The Daybreak.' The inner imagery of that beautiful dawn was so aligned with the words of the Surah that it broke into my consciousness:
+
+>Say Prophet, ‘I seek refuge with the Lord of daybreak
+>against the harm in what He has created,
+>the harm in the night when darkness gathers,
+>the harm in witches when they blow on knots,
+>the harm in the envier when he envies.'
+
+So with both aliens and Islam, there was an absorption into a worldview, into a way of looking, that engrossed me. Within the X-Files there was the concept that the Powers at Be, the men in suits who rule the world, are hiding deep facets of reality from us. That they know things about the mind and about nature that they have decided to hide, and to pursue their dark designs they abduct and experiment on the hapless. This is believable. There is the further concept that alien beings from Zeta Reticulon are jetting across the infinite gulf of space to enlist humans ready to carry the psychic war forward. They beam you right up.
+
+Later there was another absorption into quite a different worldview. That approximately 1400 years ago God spoke to a human being for essentially the last time in all eternity. That this human being, Prophet Muhammad, and his followers were charged with carrying forward a psychic struggle against the forces of evil until the day of Judgement.
+
+If you could put aside the superficial details of the experiences, the phenomenon appears to be the same. An object of awe intrudes into consciousness while I dream, jolting me to question the reality around me and realizing the utter falseness of it. It intrudes with such force that it begins to shatter the way I perceive my body. Both aliens and Allah.
+
+What the fuck is going on here?
+
+I suggest that the model might not be as important as the fit itself between the person and the model. Let's look a little bit at what each worldview might be pointing towards and why they seem to generate similar phenomenology when practiced earnestly.
+
+In Buddhism, the development of concentration in meditation, *samatha*, is a gateway to strange levels of experience. The full cultivation of concentration leads to pleasant trance states known as the jhanas. There appear to be an entire continuum of states of consciousness that could be classified as a jhana, from full-body immersion trances to a mildly pleasant buzz.
+
+The Buddhist texts recognize five factors of jhana:
+• Applied thought (vitakka): The quality of mind deciding to take an object of concentration.
+• Sustained thought (vicāra): The quality which holds the object despite distractions.
+• Rapture (pīti): An energy (sometimes perceived as electricity) that rushes through the body as the mind settles.
+• Happiness (sukha): I hope you know this one.
+• One-pointedness (ekaggatā): The ability to calm distractions for a time so that only the object remains in consciousness.
+
+Pīti and sukha arise in response to applied, sustained, and one-pointed thought. They are almost like markers that the mind is going the right way. In personal experience, the jhanas appear to be very familiar and mundane feelings of childlike contentment. When I gained regular access to the quality of *sukha* it only felt like coming back to what my mind already recognized. Jhana is concentration in its pure form, concentration without an aim or image. However, outside of meditation, concentration can take on all sorts of forms outside the ideal of jhana. I suspect that proper immersion into a belief system is also a form of concentration, and that the qualities of pīti and sukha arise shaped by the images associated with that system.
+
+The *Vimuttimagga*, a classic Theravada meditation manual from around 100 CE, says the following about a meditation phenomenon called the *nimitta* (sign):
+
+>*To the yogin who attends to the incoming breath with mind ... the nimitta arises with a pleasant feeling ... he sees several nimittas from the beginning. He sees various forms such as **smoke**, **mist**, **dust**, **sand of gold** ... If his mind becomes clear, the yogin does not experience confusion. He attends to respiration and he does not cause the arising of other perceptions.*
+
+Within a meditation context, where images, myths, and archetypes are cleared from the mind, the *nimitta* appears in its pure forms as just light or fractals or feelings of powerful vibrations within the body. Could it be that the myth-making context (Islam and X-Files obsession) also leads the mind to concentration states, and that *nimitta* experiences arise accordingly with the image system the mind is working with? What can we do with this?
+
+Here's a bit from the Buddhist Daṇḍa Sutta (SN 15:9):
+"From **an inconstruable beginning** comes transmigration. A beginning point is not evident ... Long have you thus experienced stress ... enough to become **disenchanted with all fabricated things**, enough to become dispassionate, enough to be released."
+
+I never again had an experience as powerful related to the Islamic way of seeing. No Quran readings, praying in a lucid dream, or of an inner Sun rising which blinds even my waking eye. However, the UFOs did come again once or twice, all the way until last year. Each time jolting me into lucidity and leaving a visual remnant when I wake. In these dreams I'm usually trying to record a video before the manifestation disappears, desperately trying to preserve something of it to hold onto. Inevitably, that's left when I wake up is a visual smear.
+
+I would suggest that the urge to record the UFO is a fear of losing the divine, of trying to control and hold onto God, and that the appearance of a UFO (or any symbol of the otherworldly) with its concordant physical weirdness is proper fit of the model. The glimpse of the otherwordly and the desperate desire to hold onto it is the recognition that even the divine is conditioned and impermanent. It leads us past craving for the next thing to consume, to recognize that even experiences of the divine are subject to fading away in our human minds. 
+
+Lead on, Mulder.
