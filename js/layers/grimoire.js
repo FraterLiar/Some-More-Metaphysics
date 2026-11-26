@@ -1,4 +1,5 @@
 import { buildPhysicalBook } from './grimoire-art.js?v=titled-cover';
+import { renderMarkdown } from '../lib/markdown.js?v=essay-formatting-20261125';
 
 // Closed pixel-art cover and an accessible reading spread, driven by the same
 // content data as the original book. No destinations are invented here.
@@ -72,9 +73,7 @@ export function createGrimoire(stage, viewport, copy, onOpen) {
     const eyebrow=document.createElement('div'); eyebrow.className='grimoire-eyebrow'; eyebrow.textContent='FROM THE GRIMOIRE';
     const heading=document.createElement('h2'); heading.id='grimoire-heading'; heading.className='grimoire-essay-heading'; heading.textContent=entry.title;
     const text=document.createElement('div'); text.className='grimoire-essay';
-    for (const paragraph of entry.essay.split(/\r?\n\s*\r?\n/)) {
-      const p=document.createElement('p'); p.textContent=paragraph; text.appendChild(p);
-    }
+    renderMarkdown(text, entry.essay, document.baseURI);
     const back=document.createElement('button'); back.className='grimoire-back'; back.type='button'; back.textContent='← Return to the contents'; back.addEventListener('click',()=>{contents(); content.querySelector('button')?.focus();});
     content.append(eyebrow,heading,text,back); back.focus();
   }
