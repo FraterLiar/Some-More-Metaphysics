@@ -57,10 +57,14 @@ I suggest that the model might not be as important as the fit itself between the
 In Buddhism, the development of concentration in meditation, *samatha*, is a gateway to strange levels of experience. The full cultivation of concentration leads to pleasant trance states known as the jhanas. There appear to be an entire continuum of states of consciousness that could be classified as a jhana, from full-body immersion trances to a mildly pleasant buzz.
 
 The Buddhist texts recognize five factors of jhana:
-• Applied thought (vitakka): The quality of mind deciding to take an object of concentration.\n
-• Sustained thought (vicāra): The quality which holds the object despite distractions.\n
-• Rapture (pīti): An energy (sometimes perceived as electricity) that rushes through the body as the mind settles.\n
-• Happiness (sukha): I hope you know this one.\n
+• Applied thought (vitakka): The quality of mind deciding to take an object of concentration.
+
+• Sustained thought (vicāra): The quality which holds the object despite distractions.
+
+• Rapture (pīti): An energy (sometimes perceived as electricity) that rushes through the body as the mind settles.
+
+• Happiness (sukha): I hope you know this one.
+
 • One-pointedness (ekaggatā): The ability to calm distractions for a time so that only the object remains in consciousness.
 
 Pīti and sukha arise in response to applied, sustained, and one-pointed thought. They are almost like markers that the mind is going the right way. In personal experience, the jhanas appear to be very familiar and mundane feelings of childlike contentment. When I gained regular access to the quality of *sukha* it only felt like coming back to what my mind already recognized. Jhana is concentration in its pure form, concentration without an aim or image. However, outside of meditation, concentration can take on all sorts of forms outside the ideal of jhana. I suspect that proper immersion into a belief system is also a form of concentration, and that the qualities of pīti and sukha arise shaped by the images associated with that system.
