@@ -1,5 +1,35 @@
 // Small safe renderer for the plain Markdown used in bio.md and essay files.
-export function renderMarkdown(container, markdown) {
+function appendTextWithImages(parent, text, baseUrl) {
+  const pattern = /!\[([^\]]*)\]\(([^)\s]+)(?:\s+["']([^"']*)["'])?\)/g;
+  let cursor = 0;
+  for (const match of text.matchAll(pattern)) {
+    parent.appendChild(document.createTextNode(text.slice(cursor, match.index)));
+    let url;
+    try {
+      url = new URL(match[2], baseUrl);
+    } catch {
+      parent.appendChild(document.createTextNode(match[0]));
+      cursor = match.index + match[0].length;
+      continue;
+    }
+    if (!['http:', 'https:'].includes(url.protocol)) {
+      parent.appendChild(document.createTextNode(match[0]));
+      cursor = match.index + match[0].length;
+      continue;
+    }
+    const image = document.createElement('img');
+    image.src = url.href;
+    image.alt = match[1];
+    if (match[3]) image.title = match[3];
+    image.loading = 'lazy';
+    image.decoding = 'async';
+    parent.appendChild(image);
+    cursor = match.index + match[0].length;
+  }
+  parent.appendChild(document.createTextNode(text.slice(cursor)));
+}
+
+export function renderMarkdown(container, markdown, baseUrl = document.baseURI) {
   container.replaceChildren();
   for (const block of String(markdown || '').trim().split(/\n\s*\n/)) {
     const lines = block.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
@@ -13,20 +43,7 @@ export function renderMarkdown(container, markdown) {
     }
     const image = lines.length === 1 && lines[0].match(/^!\[([^\]]*)\]\((\S+?)(?:\s+["']([^"']*)["'])?\)$/);
     if (image) {
-      let url;
-      try {
-        url = new URL(image[2], document.baseURI);
-      } catch {
-        continue;
-      }
-      if (!['http:', 'https:'].includes(url.protocol)) continue;
-      const node = document.createElement('img');
-      node.src = url.href;
-      node.alt = image[1];
-      if (image[3]) node.title = image[3];
-      node.loading = 'lazy';
-      node.decoding = 'async';
-      container.appendChild(node);
+      appendTextWithImages(container, lines[0], baseUrl);
       continue;
     }
     const listItems = lines.map(line => line.match(/^(?:[-*+]\s+|\d+[.)]\s+)(.+)$/));
@@ -42,7 +59,7 @@ export function renderMarkdown(container, markdown) {
       continue;
     }
     const node = document.createElement('p');
-    node.textContent = lines.map(line => line.replace(/^#{1,3}\s+/, '')).join(' ');
+    appendTextWithImages(node, lines.map(line => line.replace(/^#{1,3}\s+/, '')).join(' '), baseUrl);
     container.appendChild(node);
   }
 }

@@ -43,10 +43,10 @@ The file name can be `grounding.md`; keep `slug` unique and stable. `order` cont
 
 ## Edit the bio
 
-Edit `content/bio.md` to update the full bio page at `bio.html`. To include a picture, put the image file in `assets/` and add a Markdown image on its own paragraph, using a path relative to the site root, for example:
+Edit `content/bio.md` to update the full bio page at `bio.html`. To include a picture, put the image file in `assets/` and add Markdown image syntax, using a path relative to the site root, for example:
 
 ```md
-![A quiet room with a candle](./assets/quiet-room.jpg)
+![A quiet room with a candle](../assets/quiet-room.jpg)
 ```
 
 The coin at the lower left of the desk links to the bio page. Bio edits do not need `build_content.py`; commit the Markdown and image file together.
