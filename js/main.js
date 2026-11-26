@@ -6,7 +6,7 @@ import { paintSaucer, candleGeometry, paintCandle, drawFlame, createAsciiFlame }
 import { paintRing } from './layers/details.js';
 import { createLightLayer } from './layers/light.js';
 import { buildRitualRoom } from './layers/ritual.js?v=ritual-back-near-title';
-import { createGrimoire } from './layers/grimoire.js?v=desk-cleanup';
+import { createGrimoire } from './layers/grimoire.js?v=essay-formatting-20261125';
 
 const $ = (id) => document.getElementById(id);
 const NS = 'http://www.w3.org/2000/svg';
@@ -607,7 +607,7 @@ function bindEvents() {
 }
 
 async function boot() {
-  const res = await fetch('./content.json');
+  const res = await fetch('./content.json?v=essay-publication-20261125');
   state.copy = await res.json();
   state.ascii = createAsciiFlame(els.asciiFlame);
   if (document.fonts && document.fonts.ready) {
