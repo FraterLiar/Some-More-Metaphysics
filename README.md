@@ -17,6 +17,8 @@ A static site for personal essays on meditation and spirituality, with an intera
    ---
 
    Write the essay here. Use a blank line between paragraphs.
+
+   Essays render standard Markdown headings (`#` through `######`), **bold**, *italic*, ~~strikethrough~~, `inline code`, [links](https://example.com), blockquotes, and ordered or bulleted lists. Obsidian's `•` bullet style is supported too. Keep image files in `assets/` and use a web path in Markdown if the essay includes one.
    ```
 
 3. Run `python3 scripts/build_content.py` from the project folder. This updates `content.json` from the published essay and ritual Markdown files. Set `published: false` to keep a draft off the site.
