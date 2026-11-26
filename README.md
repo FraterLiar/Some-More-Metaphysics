@@ -43,7 +43,7 @@ The file name can be `grounding.md`; keep `slug` unique and stable. `order` cont
 
 ## Edit the bio
 
-Edit `content/bio.md` to update the full bio page at `bio.html`. To include a picture, put the image file in `assets/` and add Markdown image syntax, using a path relative to the site root, for example:
+Edit `content/bio.md` to update the full bio page at `bio.html`. The bio renderer supports `#` through `######` headings, **bold**, *italic*, ~~strikethrough~~, `inline code`, `[links](https://example.com)`, lists, paragraphs, and images. To include a picture, put the image file in `assets/` and use a path relative to `content/bio.md`, for example:
 
 ```md
 ![A quiet room with a candle](../assets/quiet-room.jpg)
