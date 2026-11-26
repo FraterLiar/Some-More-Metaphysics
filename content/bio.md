@@ -1,4 +1,4 @@
-Hello, I am a Liar.
+# Hello, I am a Liar.
 
 When I was a kid this used to be my favorite paradox. If the statement is true, then I am not a Liar; but if I'm not a Liar, the statement is false.
 The statement is empty of inherent meaning. It depends on ways of looking and predispositions. I take on this name because it is like a human being's identity: empty of inherent meaning also.
