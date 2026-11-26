@@ -11,6 +11,24 @@ export function renderMarkdown(container, markdown) {
       container.appendChild(node);
       continue;
     }
+    const image = lines.length === 1 && lines[0].match(/^!\[([^\]]*)\]\((\S+?)(?:\s+["']([^"']*)["'])?\)$/);
+    if (image) {
+      let url;
+      try {
+        url = new URL(image[2], document.baseURI);
+      } catch {
+        continue;
+      }
+      if (!['http:', 'https:'].includes(url.protocol)) continue;
+      const node = document.createElement('img');
+      node.src = url.href;
+      node.alt = image[1];
+      if (image[3]) node.title = image[3];
+      node.loading = 'lazy';
+      node.decoding = 'async';
+      container.appendChild(node);
+      continue;
+    }
     const listItems = lines.map(line => line.match(/^(?:[-*+]\s+|\d+[.)]\s+)(.+)$/));
     if (listItems.every(Boolean)) {
       const ordered = /^\d+[.)]/.test(lines[0]);

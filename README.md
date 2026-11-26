@@ -43,7 +43,13 @@ The file name can be `grounding.md`; keep `slug` unique and stable. `order` cont
 
 ## Edit the bio
 
-Edit `content/bio.md` to update the full bio page at `bio.html`. The coin at the lower left of the desk links to the bio page.
+Edit `content/bio.md` to update the full bio page at `bio.html`. To include a picture, put the image file in `assets/` and add a Markdown image on its own paragraph, using a path relative to the site root, for example:
+
+```md
+![A quiet room with a candle](./assets/quiet-room.jpg)
+```
+
+The coin at the lower left of the desk links to the bio page. Bio edits do not need `build_content.py`; commit the Markdown and image file together.
 
 ## Preview on your computer
 
@@ -72,5 +78,3 @@ GitHub Pages hosts files publicly. Review the repository contents before publish
 - `content.json` — generated data used by the site; commit it after running the script.
 - `index.html`, `bio.html` — desk/book experience and bio page.
 - `css/`, `js/`, `assets/`, `fonts/` — styling, interactions, images, and typefaces.
-# Some-More-Metaphysics
-# Some-More-Metaphysics

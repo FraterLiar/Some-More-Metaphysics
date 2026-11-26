@@ -159,6 +159,7 @@ html, body {
 }
 .bio-sheet h1 { margin: 0 0 1em; font-size: 1.8em; font-weight: normal; }
 .bio-sheet p { margin: 0 0 1em; }
+.bio-sheet img { display:block; max-width:100%; height:auto; margin:1.5em auto; border:1px solid #bba77d; box-shadow:0 8px 22px rgba(61,39,20,.2); }
 .bio-return { display: inline-block; margin-bottom: 2em; color: #795039; font-style: italic; }
 .bio-coin {
   position:absolute; z-index:7;

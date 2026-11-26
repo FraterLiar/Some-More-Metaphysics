@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About — Some More Metaphysics</title>
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.css?v=bio-images">
 </head>
 <body class="bio-page">
   <main class="bio-sheet">
@@ -13,7 +13,7 @@
     <article id="full-bio" aria-live="polite"></article>
   </main>
   <script type="module">
-    import { renderMarkdown } from './js/lib/markdown.js';
+    import { renderMarkdown } from './js/lib/markdown.js?v=bio-images';
     const response = await fetch('./content/bio.md');
     renderMarkdown(document.getElementById('full-bio'), await response.text());
   </script>
