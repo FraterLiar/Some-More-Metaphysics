@@ -63,6 +63,16 @@ export function renderMarkdown(container, markdown, baseUrl = document.baseURI) 
   for (const block of String(markdown || '').trim().split(/\n\s*\n/)) {
     const lines = block.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
     if (!lines.length) continue;
+    if (lines.every(line => /^>\s?/.test(line))) {
+      const quote = document.createElement('blockquote');
+      for (const line of lines) {
+        const paragraph = document.createElement('p');
+        appendInlineMarkdown(paragraph, line.replace(/^>\s?/, ''), baseUrl);
+        quote.appendChild(paragraph);
+      }
+      container.appendChild(quote);
+      continue;
+    }
     const heading = lines.length === 1 && lines[0].match(/^(#{1,6})\s+(.+)$/);
     if (heading) {
       const node = document.createElement(`h${heading[1].length}`);
