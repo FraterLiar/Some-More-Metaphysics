@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About — Some More Metaphysics</title>
   <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="./css/style.css?v=bio-images-inline">
+  <link rel="stylesheet" href="./css/style.css?v=inline-markdown">
 </head>
 <body class="bio-page">
   <main class="bio-sheet">
@@ -13,8 +13,9 @@
     <article id="full-bio" aria-live="polite"></article>
   </main>
   <script type="module">
-    import { renderMarkdown } from './js/lib/markdown.js?v=bio-source-relative';
+    import { renderMarkdown } from './js/lib/markdown.js?v=inline-markdown';
     const bioSource = new URL('./content/bio.md', document.baseURI);
+    bioSource.searchParams.set('v', 'bio-photo-20261125');
     const response = await fetch(bioSource);
     renderMarkdown(document.getElementById('full-bio'), await response.text(), bioSource);
   </script>
