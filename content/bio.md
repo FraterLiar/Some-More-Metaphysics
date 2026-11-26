@@ -7,4 +7,4 @@ I’d like this website to be a grimoire of the mind. So-called ways of seeing t
 
 My current practice encompasses Buddhist meditation, the various currents of the Western occult tradition (Frankensteined together using a chaos magic paradigm courtesy of St. Robert Anton Wilson), and the cultural context of the South Asian diaspora and Islam. Feel free to immerse yourself in darkness by putting out the candle and entering the ritual room, where I collect practical instructions. Or peruse one of the essays in the grimoire, where I synthesize personal experience with what I've read to shed interesting light on spiritual practice.
 
-![](Pasted%20image%2020261125180238.png)
+![George](./assets/st_george.png)
